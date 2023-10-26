@@ -1,0 +1,32 @@
+**ways to create thread using runnable interface:-
+
+1.Create a separate Runnable implementation class:
+
+Define a class that implements the Runnable interface.
+Implement the run() method
+
+2.Anonymous inner class:
+
+3.Java 8 Lambda expression:
+Use a lambda expression as a concise way to define the run() method implementation directly.
+Create a Thread object, passing the lambda expression as a parameter to the Thread constructor.
+Call the start() method on the Thread object to start the execution of the new thread.
+
+
+**ways to create thread by extending thread class
+
+1.Create a subclass that extends the Thread class.
+2.Create an instance of the subclass and start the thread:
+Create an instance of your subclass.
+Call the start() method on the instance to start the execution of the new thread.
+
+Where to use synchronized keyword ?
+1.Synchronized Methods:
+2.Synchronized Code Blocks
+3.Synchronized on Object Instance:-useful when you want to ensure that only one thread can access a particular instance of an object at a time.
+4.Synchronized on Class:-use the synchronized keyword to synchronize on the class object itself. 
+*useful when you want to ensure that only one thread can access a static method or a static synchronized block of code.
+
+how you can use synchronized code blocks?
+1.Synchronized code block using an instance-level lock
+2.Synchronized code block using class-level lock:
